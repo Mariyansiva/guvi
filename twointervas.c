@@ -6,7 +6,7 @@ printf("give the first number for the range:\n");
 scanf("%d",&x);
 printf("give the final number for the range:\n");
 scanf("%d",&y);
-printf("\n the even numbers between%D and %d are",f1,f2);
+printf("\n the even numbers between%d and %d are",f1,f2);
 for(i=x;i<=y;++i)
 {
 rem=i%2;

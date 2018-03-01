@@ -13,10 +13,10 @@ a=strlen(x);
 b=strlen(y);
 if(a<b)
 {
-    printf("\n%d",b);
+    printf("\n%s",y);
 }
 else
-{printf("\n%d",a);
+{printf("\n%s",x);
 }
     return 0;
 }

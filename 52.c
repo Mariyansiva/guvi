@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-	int n;
+	int a;
 	printf("Enter the number");
-	scanf("%d",&n);
-	switch(n)
+	scanf("%d",&a);
+	switch(a)
 	{
 		case 1:printf("one");
 		break;

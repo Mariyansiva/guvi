@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int b[10],i,max;
-	for(i=0;i<10;i++)
-	scanf("%d",&b[i]);
-	max=b[0];
-	for(i=0;i<10;i++)
+	int s[10],j,max;
+	for(j=0;j<10;j++)
+	scanf("%d",&s[j]);
+	max=s[0];
+	for(j=0;j<10;j++)
 	{
-		if(b[i]>max)
+		if(s[j]>max)
 		{
-			max=b[i];
+			max=s[j];
 		}
 	}
 	printf("%d",max);
